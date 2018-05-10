@@ -20,10 +20,10 @@ export default class LoginWith extends Component {
           style={{ flex: 1 }}
           startInLoadingState={true}
           thirdPartyCookiesEnabled={false}
+          scalesPageToFit={true}
           startInLoadingState
           javaScriptEnabled={true}
           userAgent={"Mozilla/5.0 (X11; Linux i686; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1"}
-          {...this.props}
           source={{ uri: url }}
           onMessage={(e) => {
             var data = e.nativeEvent.data
