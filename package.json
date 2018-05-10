@@ -1,6 +1,6 @@
 {
   "name": "react-native-esoftplay-social-login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "login with many social provider",
   "main": "index.js",
   "scripts": {
